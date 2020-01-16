@@ -1,0 +1,9 @@
+#box1{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: red;
+
+    border-radius: 25px;
+}
