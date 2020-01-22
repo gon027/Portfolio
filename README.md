@@ -1,3 +1,3 @@
 # ポートフォリオサイト
 ## URL
-https://github.com/gon027/Portfolio
+https://gon027.github.io/Portfolio/
