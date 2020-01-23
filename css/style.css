@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p, img{
 html, body{
     padding: 0;
     margin: 0;
-   
+    background-color: antiquewhite;
 }
 
 header{
@@ -34,6 +34,11 @@ header a{
     height: 48px;
 }
 
+img{
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
 .text{
     position: relative;
     top: 0;
@@ -44,6 +49,8 @@ header a{
 h1{
     display: block;
     margin: 0;
+    position: relative;
+    top: 20px;
 }
 
 h2{
@@ -69,6 +76,13 @@ h3:hover{
     color: green;
 }
 
+h4{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 p{
     text-align: center;
 }
@@ -80,7 +94,7 @@ p{
     margin-bottom: 25px;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: white;
+    background-color: aquamarine;
 }
 
 footer{

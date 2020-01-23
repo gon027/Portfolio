@@ -2,47 +2,58 @@
 <html>
     <head>
     <meta charset="UTF8"/>
-    <title>ポートフォリオ</title>
+    <title>Profile</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="img/icon.ico">
+    <link rel="shortcut icon" href="icon/icon.ico">
     </head>
     
     <body oncopy="return false;">
         <header id = "header">
-            <a href="index.html" class="image"><img src= "img/home2.png"/></a>
-            <a href="index.html" class="text"><h1>Portfolio</h1></a>
+            <a href="index.html" class="text">  
+                <h1>Portfolio</h1>
+            </a>
+            <h1>About</h1>
+            <h1>Works</h1>
+            
         </header>
-
-        <div id="selectBar">
-            About
-            作品
-        </div>
 
         <div id="main-content">
             <div id="profile">
-                <h2>My Profile</h2>
-                    <h3 class="Self-introduction">自己紹介</h3>
-                        <p>ここは自己紹介です</p>
-
-                    <h3>趣味</h3>
+                <h2 class="title">My Profile</h2>
+                    <h2>ABOUT</h2>
+                    <div class="icon">
+                        <img src ="img/icon.PNG" width="250px" height="250px">
+                    </div>
+                    <div class="about-details">
+                        <p>名前 : ゴン</p>
+                        <p>好きなもの : たこ焼き</p>
+                        <h4>趣味</h4>
                         <p>ここは趣味です</p>
                         <p>ゲーム</p>
                         <p>寝るZZZ</p>
-                        
-                    <h3>資格</h3>
-                        <p>ここは資格です</p>
-                </div>
+                    </div>
+            </div> <!-- profile -->
 
-            <h2>Works</h2>
-                <p>ここは作った作品です<p>
-        </div>
+            <div id="work">
+                <h2>Works</h2>
+                <p>今までに作成してきた作品です。</p>
+            </div>
+
+            <div id="skill">
+                <h2>SKILL</h2>
+                <p>ここにスキル</p>
+                C++, C#, Java, 
+            </div>
+
+            <div id="link">
+                <h2>LINK</h2>
+                <a href="https://github.com/gon027">github</a>
+            </div>
+        </div> <!-- main-content -->
 
         
         <footer id="footer">
-            <h2>
-                ここはフッターです
-            </h2>
-            <!--<a href="https://github.com/gon027">github</a>-->
+            <h2>ここはフッターです</h2>
         </footer>
     </body>
 </html>
