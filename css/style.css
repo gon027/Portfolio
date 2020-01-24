@@ -138,6 +138,10 @@ img{
 
 }
 
+.work-window{
+    border: 5px solid green;
+}
+
 .link-list{
     text-align: center;
 }
