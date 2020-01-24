@@ -34,6 +34,28 @@ header a{
     height: 48px;
 }
 
+.github-link{
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 41, 47);
+    text-decoration: none;
+    border-radius: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.twitter-link{
+    color: rgb(255, 255, 255);
+    background-color: #009dfa;
+    text-decoration: none;
+    border-radius: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
 img{
     border-radius: 50%;
     border: 5px solid green;
