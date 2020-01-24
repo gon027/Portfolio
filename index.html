@@ -12,10 +12,12 @@
             <a href="index.html" class="text">  
                 <h1>Portfolio</h1>
             </a>
-            <h1>About</h1>
-            <h1>Works</h1>
-            <h1>SKILL</h1>
-            <h1>LINK</h1>
+            <div class="header-list">
+                <a href="#profile">ABOUT</a>
+                <a href="#work">WORKS</a>
+                <a href="#skill">SKILL</a>
+                <a href="#link">LINK</a>
+            </div>
             
         </header>
 
@@ -27,32 +29,40 @@
                     <div class="profile-content">
 
                         <div class="profile-icon">
-                            <img src ="img/icon2.PNG" width="300px" height="300px">
+                            <div class="profile-icon-position">
+                                <img src ="img/icon2.PNG" width="300px" height="300px">
+                            </div>
                         </div>
 
                         <div class="profile-about">
-                            <p>名前 : ゴン</p>
-                            <p>好きなもの : たこ焼き</p>
-                            <p>ああああああああ</p>
+                            <div class="profile-about-position">
+                                <p>名前 : ゴン</p>
+                                <p>好きなもの : たこ焼き</p>
+                                <p>ああああああああ</p>
 
-                            <h4>趣味</h4>
-                            <p>ここは趣味です</p>
-                            <p>ゲーム</p>
-                            <p>寝るZZZ</p>
+                                <h4>趣味</h4>
+                                <p>ここは趣味です</p>
+                                <p>ゲーム</p>
+                                <p>寝るZZZ</p>
+                            </div>
                         </div>
                     </div> <!-- profile-content -->
             </div> <!-- profile -->
 
             <div id="work">
-                <h2>Works</h2>
+                <h2>WORKS</h2>
                 <p>今までに作成してきた作品です。</p>
+                <!--<a href="file:///Users/kumeitakashi/Documents/Portfolio/work.html">詳しく見る</a>-->
 
                 <div class="work-window">
-                    作品１
-                </div>
+                    <div class="work-element">
+                        作品１
+                    </div>
 
-                <div class="work-window">
-                    作品２
+                    <div class="work-element">
+                        作品２
+                    </div>
+
                 </div>
             </div>
 
@@ -73,7 +83,12 @@
 
         
         <footer id="footer">
-            <h2>ここはフッターです</h2>
+            <div class="footer-list">
+                <a href="#profile">ABOUT</a>
+                <a href="#work">WORKS</a>
+                <a href="#skill">SKILL</a>
+                <a href="#link">LINK</a>
+            </div>
         </footer>
     </body>
 </html>

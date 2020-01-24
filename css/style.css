@@ -15,10 +15,11 @@ header{
     background-color: rgba(26, 26, 26, 0.164);
     padding: 0;
     margin: 0;
+    width: 100%;
     height: 70px;
 }
 
-header a{
+header a, footer a{
     display: inline-block;
     width: 200px;
     text-decoration: none;
@@ -32,6 +33,7 @@ footer{
     padding: 0;
     margin: 0;
     background-color: rgba(26, 26, 26, 0.164);
+    width: 100%;
     height: 100px;
 }
 
@@ -95,6 +97,14 @@ img{
     border: 5px solid rgb(0, 4, 255);
 }
 
+#work{
+    border: 5px solid rgb(0, 4, 255);
+}
+
+#skill{
+
+}
+
 #link{
     height: 700px;
 }
@@ -112,6 +122,10 @@ img{
     position: relative;
     width: 48px;
     height: 48px;
+}
+
+.header-list{
+    float: right;
 }
 
 .profile-content{
@@ -134,11 +148,21 @@ img{
     text-align: center;
 }
 
+.profile-icon-position{
+    /* display: block; */
+    /* position: absolute; */
+    /* top%; */
+}
+
 .profile-about{
 
 }
 
-.work-window{
+.work-windows{
+    border: 5px solid red;
+}
+
+.work-element{
     border: 5px solid green;
 }
 
@@ -168,4 +192,8 @@ img{
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.footer-list{
+    text-align: center;
 }
