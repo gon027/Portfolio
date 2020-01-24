@@ -74,11 +74,10 @@ p{
     text-align: center;
 }
 
-img{
-    border-radius: 50%;
-    border: 5px solid green;
-}
-
+/* img{
+    margin: 10px;
+    text-align: center;
+} */
 
 /* id */
 
@@ -102,7 +101,7 @@ img{
 }
 
 #skill{
-
+    border: 5px solid rgb(0, 4, 255);
 }
 
 #link{
@@ -122,6 +121,11 @@ img{
     position: relative;
     width: 48px;
     height: 48px;
+}
+
+.icon{
+    border-radius: 50%;
+    border: 5px solid green;
 }
 
 .header-list{
@@ -160,10 +164,28 @@ img{
 
 .work-windows{
     border: 5px solid red;
+    /* overflow: hidden; フローティング削除 */
 }
 
 .work-element{
+    /* float: left; */
+    margin: 10px;
     border: 5px solid green;
+    width: 45%;
+}
+
+.work-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.work-image, .work-link{
+    text-align: center;
+}
+
+.work-link{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .link-list{
