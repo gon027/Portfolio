@@ -1,0 +1,20 @@
+div{
+    text-align: center;
+}
+
+.box1, .box2{
+    border: 5px solid blue;
+    float: left;
+    width: 50%;
+}
+/* 
+.box1{
+    
+    width: 50%;
+}
+
+.box2{
+    border: 5px solid green;
+    float: left;
+    width: 10%;
+} */

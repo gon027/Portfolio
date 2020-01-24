@@ -8,11 +8,11 @@ h1, h2, h3, h4, h5, h6, p, img{
 html, body{
     padding: 0;
     margin: 0;
-    background-color: antiquewhite;
+    background-color: rgb(255, 246, 235);
 }
 
 header{
-    background-color: rgba(37, 43, 40, 0.164);
+    background-color: rgba(26, 26, 26, 0.164);
     padding: 0;
     margin: 0;
     height: 70px;
@@ -28,44 +28,11 @@ header a{
     color: black;
 }
 
-.image{
-    position: relative;
-    width: 48px;
-    height: 48px;
-}
-
-.github-link{
-    color: rgb(255, 255, 255);
-    background-color: rgb(35, 41, 47);
-    text-decoration: none;
-    border-radius: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
-}
-
-.twitter-link{
-    color: rgb(255, 255, 255);
-    background-color: #009dfa;
-    text-decoration: none;
-    border-radius: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
-}
-
-img{
-    border-radius: 50%;
-    border: 5px solid green;
-}
-
-.text{
-    position: relative;
-    top: 0;
-    left: 40px;
-    width: 225px;
+footer{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(26, 26, 26, 0.164);
+    height: 100px;
 }
 
 h1{
@@ -82,10 +49,6 @@ h2{
     font-size: 50px;
 }
 
-h2:hover{
-    /*color: red;*/
-}
-
 h3{
     margin: 0;
     margin-top: 50px;
@@ -100,8 +63,8 @@ h3:hover{
 
 h4{
     margin: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -109,7 +72,16 @@ p{
     text-align: center;
 }
 
+img{
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+
+/* id */
+
 #main-content{
+    border: 5px solid yellowgreen;
     padding-top: 25px;
     padding-bottom: 50px;
     margin-top: 25px;
@@ -119,9 +91,77 @@ p{
     background-color: aquamarine;
 }
 
-footer{
-    padding: 0;
-    margin: 0;
-    background-color: aqua;
-    height: 100px;
+#profile{
+    border: 5px solid rgb(0, 4, 255);
+}
+
+#link{
+    height: 700px;
+}
+
+/* class */
+
+.text{
+    position: relative;
+    top: 0;
+    left: 40px;
+    width: 225px;
+}
+
+.image{
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.profile-content{
+    background-color: chartreuse;
+    border: 5px solid rgb(255, 0, 200);
+    overflow: hidden; /* フローティング削除 */
+}
+
+.profile-icon, .profile-about{
+    display: block;
+    border: 5px solid green;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 450px;
+}
+
+.profile-icon{
+    left: 50px;
+    text-align: center;
+}
+
+.profile-about{
+
+}
+
+.link-list{
+    text-align: center;
+}
+
+.github-link{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 41, 47);
+    text-decoration: none;
+    border-radius: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.twitter-link{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #009dfa;
+    text-decoration: none;
+    border-radius: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
