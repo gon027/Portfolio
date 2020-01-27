@@ -19,16 +19,6 @@ header{
     height: 75px;
 }
 
-/* header a, footer a{
-    display: inline-block;
-    width: 200px;
-    text-decoration: none;
-    position: relative;
-    top: 10px;
-    left: 30px;
-    color: black;
-} */
-
 footer{
     padding: 0;
     margin: 0;
@@ -41,6 +31,7 @@ h1{
     position: relative;
     top: 20px;
     margin: 0;
+    left: 40px;
 }
 
 h2{
@@ -83,19 +74,15 @@ nav{
 }
 
 ul{
-    list-style: none;   /* 黒点をなくす */
-    overflow: hidden; /* フローティング削除 */
+    list-style: none;   
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
 li{
+    float: left;    /* 横１列にするためのfloat */
     text-align: center;
-    width: 200px;
-    height: 75px;
-    font-size: 30px;
-    font-weight: bold;
-    float: left;
     margin: 0;
     margin-left: 2px;
     margin-right: 2px;
@@ -149,6 +136,12 @@ li a:hover{
     display: none;
 }
 
+.logo{
+    display: block;
+    color: black;
+    position: relative;
+}
+
 .header-logo{
     float: left;
 }
@@ -157,20 +150,13 @@ li a:hover{
     height: 75px;
 }
 
-.self-id-links{
+.nav-links{
     float: right;
 }
 
 .link-in-page{
     background-color: #009dfa;
     text-align: center;
-}
-
-.text{
-    position: relative;
-    top: 0;
-    left: 40px;
-    width: 225px;
 }
 
 .image{
@@ -184,9 +170,11 @@ li a:hover{
     border: 5px solid black;
 }
 
-.header-list{
+.header-list-element{
     font-size: 30px;
     font-weight: bold;
+    width: 200px;
+    height: 75px;
 }
 
 .profile-content{
@@ -259,7 +247,6 @@ li a:hover{
 }
 
 .link-list{
-    border: 5px solid red;
     text-align: center;
     height: 100px;
 }
@@ -327,19 +314,22 @@ li a:hover{
     opacity: 0.9;
 }
 
-.footer-list{
-    font-size: 20px;
-    display: inline-block;
-    vertical-align: middle;
+.footer-list-element{
     text-align: center;
-    height: 45px;
-    width: 100%;
-    margin: 10px ;
+    position: relative;
+    width: 150px;
+    padding: 0;
+    margin: 10px;
+    left:25%;
 }
 
 .return-top{
-    /* background-color: brown; */
     text-align: center;
     height: 30px;
     margin: 20px;
+}
+
+.return-top a{
+    color: black;
+    display: block;
 }
