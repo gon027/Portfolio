@@ -19,7 +19,7 @@ header{
     height: 75px;
 }
 
-header a, footer a{
+/* header a, footer a{
     display: inline-block;
     width: 200px;
     text-decoration: none;
@@ -27,7 +27,7 @@ header a, footer a{
     top: 10px;
     left: 30px;
     color: black;
-}
+} */
 
 footer{
     padding: 0;
@@ -38,10 +38,9 @@ footer{
 }
 
 h1{
-    display: block;
-    margin: 0;
     position: relative;
     top: 20px;
+    margin: 0;
 }
 
 h2{
@@ -74,10 +73,44 @@ p{
     text-align: center;
 }
 
-/* img{
-    margin: 10px;
+a{
+    text-decoration: none;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;   /* 黒点をなくす */
+    overflow: hidden; /* フローティング削除 */
+    margin: 0;
+    padding: 0;
+}
+
+li{
     text-align: center;
-} */
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background-color: rgba(17, 17, 17, 0.164);
+}
 
 /* id */
 
@@ -111,8 +144,21 @@ p{
 
 /* class */
 
+/* 非公開にする要素 */
 .private-element{
     display: none;
+}
+
+.header-logo{
+    float: left;
+}
+
+.header-elements{
+    height: 75px;
+}
+
+.self-id-links{
+    float: right;
 }
 
 .link-in-page{
@@ -139,8 +185,6 @@ p{
 }
 
 .header-list{
-    float: right;
-    /* display: inline-block; */
     font-size: 30px;
     font-weight: bold;
 }
@@ -184,10 +228,6 @@ p{
 
 /* 子 */
 .work-element{
-    /* position: relative;
-    left: 100px; */
-
-    /* text-align: center; */
     background-color: aliceblue;
     display: inline-block;
     margin-top: 5px;
@@ -226,10 +266,10 @@ p{
 
 .github-contact, .twitter-contact
 , .mail-contact, .youtube-contact{
+    display: inline;
     margin: 30px;
     position: relative;
     top: 40px;
-    /* transition: all 0.3s ease 0s; */
 }
 
 .github-contact{
@@ -288,13 +328,17 @@ p{
 }
 
 .footer-list{
-    /* display: inline-block; */
-    text-align: center;
     font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    margin: 10px ;
 }
 
 .return-top{
-    background-color: brown;
+    /* background-color: brown; */
     text-align: center;
     height: 30px;
     margin: 20px;

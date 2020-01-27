@@ -18,3 +18,33 @@ div{
     float: left;
     width: 10%;
 } */
+
+p{
+    margin: 0;
+}
+
+a{
+    display: block;
+}
+
+ul{
+    list-style: none;   /* 黒点をなくす */
+    overflow: hidden; /* フローティング削除 */
+}
+
+li{
+    background-color: red;
+    text-align: center;
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin: 5px;
+}
+
+li a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: yellow;
+}
