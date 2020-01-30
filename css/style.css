@@ -221,10 +221,13 @@ li a:hover{
 
 }
 
+/*=================================*/
+
 /* 親 */
-.work-windows{
+.work-window{
+    background-color: rgb(255, 0, 0);
     border: 5px solid red;
-    /* overflow: hidden; フローティング削除 */
+    overflow: hidden;
     text-align: center;
 }
 
@@ -259,6 +262,8 @@ li a:hover{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*==============================*/
 
 .link-list{
     text-align: center;
@@ -346,4 +351,35 @@ li a:hover{
 .return-top a{
     color: black;
     display: block;
+}
+
+/* スキルボックス */
+.skill-box{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+}
+
+.skill-element{
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 45%;   
+    height: auto;
+    margin: 15px;
+}
+
+.skill-language{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-ber{
+    text-align: center;
+}
+
+.skill-text{
+    text-align: start;
 }
