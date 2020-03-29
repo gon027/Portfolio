@@ -221,13 +221,16 @@ li a:hover{
 /*=================================*/
 
 .work-window{
-    overflow: hidden;
-    text-align: center;
+    /* overflow: hidden; */
+    /* text-align: center; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center
 }
 
 .work-element{
     background-color: rgb(255, 255, 255);
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 5px;
     margin-bottom: 50px;
     margin-left: 10px;
