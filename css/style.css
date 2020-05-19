@@ -279,17 +279,48 @@ li a:hover{
     font-weight: bold;
 }
 
-.work-image, .work-link{
+.work-image, .work-link-box{
     text-align: center;
 }
 
-.work-link{
+.work-link-box{
     margin-top: 20px;
     margin-bottom: 20px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around; */
 }
 
 .work-img{
     width: 90%;
+}
+
+.work-test{
+    /* position: absolute;
+    margin: auto; */
+}
+
+.work-github-btn{
+    text-decoration: none;
+    background-color: rgb(35, 41, 47);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.work-link-btn{
+    text-decoration: none;
+    background-color: rgb(143, 255, 169);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*===================================
